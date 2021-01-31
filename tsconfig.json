@@ -6,6 +6,11 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictPropertyInitialization": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
@@ -17,7 +22,12 @@
       "dom"
     ]
   },
+
   "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true,
+    "fullTemplateTypeCheck": true,
   }
 }
